@@ -1,6 +1,6 @@
 <?php
 // Database connection
-$conn = new mysqli('localhost', 'root', 'sK23102004!', 'attendease');
+$conn = new mysqli('localhost', 'root', '', 'attendease'); //add password
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
