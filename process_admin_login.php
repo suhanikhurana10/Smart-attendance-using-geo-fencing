@@ -2,7 +2,7 @@
 session_start();
 
 // Database connection
-$conn = new mysqli('localhost', 'root', 'sK23102004!', 'attendease');
+$conn = new mysqli('localhost', 'root', '', 'attendease'); //add password
 
 // Check connection
 if ($conn->connect_error) {
